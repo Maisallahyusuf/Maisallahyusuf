@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://static.thenounproject.com/png/1771930-200.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Name</title>
+    
+        <style>
+          body {
+            font-family: "Dosis", sans-serif;
+          }
+        </style>
+      </head>
+    
+      <body class="font-family: Dosis, sans-serif; bg-black">
+        <!-- Nav  -->
+        <nav class="fixed top-0 left-0 w-full bg-black shadow-md z-10">
+          <ul
+            class="flex justify-between content-center text-white px-4 md:px-12 py-4 text-2xl items-center"
+          >
+            <div class="flex gap-2 text-sm text-white">
+              <a href="">
+                <li>
+                  <img
+                    class="w-12"
+                    src="https://static.vecteezy.com/system/resources/previews/018/930/473/original/instagram-logo-instagram-icon-transparent-free-png.png"
+                    alt="insta-icon"
+                  />
+                </li>
+              </a>
+              <!-- <li>
+                <img
+                  class="w-12 text-white"
+                  src="https://e7.pngegg.com/pngimages/201/462/png-clipart-computer-icons-facebook-facebook-logo-black-and-white-thumbnail.png"
+                  alt="facebook-icon"
+                />
+              </li> -->
+            </div>
+            <li class="text-2xl md:text-4xl font-bold uppercase">Umar gambo abdulqadir  Salon</li>
+            <a href="#contact" id="scrollToFooter">
+              <li class="text-lg font-semibold text-[#ADADAD] tracking-wide">
+                Contact
+              </li></a
+            >
+          </ul>
+        </nav>
+    
+        <!-- hero section  -->
+        <section class="relative">
+          <div>
+            <img
+              class="w-full h-screen object-cover opacity-50"
+              src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+            <h1
+              class="text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl text-center font-bold tracking-wider"
+            >
+              Welcome to Umar gambo abdulqadir  Salon
+    
+              <p class="text-xl mt-4 tracking-widest font-[600]">
+              UMAR GAMBO ABDULKADIR U1/21/CSC/1709  
+              </p>
+            </h1>
+            <!-- <h1
+              class="text-white absolute top-1.5/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl text-center font-bold"
+            ></h1> -->
+          </div>
+        </section>
+    
+        <section class="my-4">
+          <h4 class="text-white text-3xl text-center my-16 font-semibold">
+            Our Services
+          </h4>
+          <div class="flex flex-col md:flex-row justify-space-between">
+            <img
+              class="w-full md:w-[50%]"
+              src="https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+            <div class="flex text-white items-center justify-center px-12">
+              <div>
+                <h4
+                  class="text-3xl text-center mb-4 font-bold mt-4 md:mt-0 uppercase tracking-widest"
+                >
+                  Hair Styling
+                </h4>
+                <p
+                  class="text-lg text-center tracking-widest font-[400] text-[#ADADAD]"
+                >
+                  Discover a world of hairstyling excellence at our hair cutting
+                  store. Our skilled professionals are here to elevate your look and
+                  bring your hair dreams to life. Experience the art of hair at its
+                  finest.
+                </p>
+                <div class="flex justify-center items-center my-8">
+                  <a href="#contact">
+                    <button
+                      id="scrollToFooter"
+                      class="border-2 border-[#ADADAD] px-8 py-4 text-[#ADADAD] hover:bg-[#ADADAD] hover:text-black uppercase tracking-wider"
+                    >
+                      Contact Us
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="my-4">
+          <div class="flex flex-col md:flex-row justify-space-between">
+            <div
+              class="order-2 md:order-1 flex text-white items-center justify-center px-12"
+            >
+              <div>
+                <h4
+                  class="text-3xl text-center mb-4 font-bold mt-4 md:mt-0 uppercase tracking-widest"
+                >
+                  Beard Styling
+                </h4>
+                <p
+                  class="text-lg text-center tracking-widest font-[400] text-[#ADADAD]"
+                >
+                  Unlock your beard's full potential with our beard styling
+                  expertise. Our skilled barbers will craft the perfect beard style
+                  that suits your unique personality. Tailored beard grooming at its
+                  best.
+                </p>
+                <div class="flex justify-center items-center my-8">
+                  <a href="#contact">
+                    <button
+                      id="scrollToFooter"
+                      class="border-2 border-[#ADADAD] px-8 py-4 text-[#ADADAD] hover:bg-[#ADADAD] hover:text-black uppercase tracking-wider"
+                    >
+                      Contact Us
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <img
+              class="order-1 md:order-2 w-full md:w-[50%]"
+              src="https://images.pexels.com/photos/7518723/pexels-photo-7518723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+        </section>
+    
+        <section class="my-4 mb-12">
+          <div class="flex flex-col md:flex-row justify-space-between">
+            <img
+              class="w-full md:w-[50%]"
+              src="https://images.pexels.com/photos/1319461/pexels-photo-1319461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+            <div class="flex text-white items-center justify-center px-12">
+              <div>
+                <h4
+                  class="text-3xl text-center mb-4 font-bold mt-4 md:mt-0 uppercase tracking-widest"
+                >
+                  Shaving
+                </h4>
+                <p
+                  class="text-lg text-center tracking-widest font-[400] text-[#ADADAD]"
+                >
+                  Experience the pinnacle of shaving precision at our store. Our
+                  barbers are masters in the art of a close, smooth shave. Your
+                  ultimate grooming destination.
+                </p>
+                <div class="flex justify-center items-center my-8">
+                  <a href="#contact">
+                    <button
+                      id="scrollToFooter"
+                      class="border-2 border-[#ADADAD] px-8 py-4 text-[#ADADAD] hover:bg-[#ADADAD] hover:text-black uppercase tracking-wider"
+                    >
+                      Contact Us
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <hr class="border-t border-[#ADADAD] border-b-1 opacity-30 mx-16" />
+        <footer
+          id="contact"
+          class="text-white p-4 flex flex-col md:flex-row p-4 items-center justify-around mb-4"
+        >
+          <div class="">
+            <h4
+              class="text-lg text-center tracking-[.20em] uppercase mb-4 font-[200]"
+            >
+              Address
+            </h4>
+            <p class="text-md text-center tracking-wide w-64 mb-8">
+              csc211709@students.umyu.edu.ng
+            </p>
+          </div>
+          <div>
+            <!-- <p class="text-center">&copy; 2023 Your Website Name</p> -->
+            <h4 class="text-lg tracking-[.20em] mb-4 uppercase font-[200]">
+              Contact Us
+            </h4>
+            <a href="tel:+234 803 638 8306 "
+              ><p
+                class="text-md tracking-[.10em] underline underline-offset-2 mb-2 "
+              >
+                Call Us: +234 803 638 8306
+              </p></a
+            >
+    
+            <a href="mailto:csc2111709@students.umyu.edu.ng"
+              ><p
+                class="text-md tracking-[.10em] underline underline-offset-2 mb-16"
+              >
+                csc2111709@students.umyu.edu.ng
+              </p></a
+            >
+          </div>
+        </footer>
+    
+        <script>
+          document
+            .getElementById("scrollToFooter")
+            .addEventListener("click", function (event) {
+              event.preventDefault();
+              const footer = document.getElementById("contact");
+              const offset = footer.getBoundingClientRect().top + window.scrollY;
+    
+              window.scrollTo({
+                top: offset,
+                behavior: "smooth",
+              });
+            });
+        </script>
+      </body>
+    </html>
